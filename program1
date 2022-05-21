@@ -1,0 +1,14 @@
+const arr = [12, 12,16, 15, 13, 17, 16];
+const n = 2;
+const len = arr.length;
+
+for(i=0; i<len; i++){
+    for(j=i+1; j<len; j++){
+        if(arr[i]==arr[j]){
+        const m = arr[i]; 
+        console.log(m);
+    }
+    
+    }
+    
+}
