@@ -1,4 +1,9 @@
 const Lockup= [1,0,0,0,1]
-const = 1
+const l= true;
+const k= 1;
 cosnt len = Lokup.length;
-if(len%2)
+if(len%2!=0){
+      console.log(l);
+}else{
+    console.log(false)
+}
